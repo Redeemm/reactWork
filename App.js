@@ -31,7 +31,7 @@ const App = () => {
   };
 
   const handleSubmit = () => {
-    Alert.alert("Information Recieved", ${userName} ${level} ${indexNumber});
+    Alert.alert("Information Recieved", `${userName} ${level} ${indexNumber}`);
   };
 
   return (
